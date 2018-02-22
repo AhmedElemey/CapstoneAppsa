@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <group
+        android:id="@+id/g1"
+        android:checkableBehavior="single">
+    <item
+        android:id="@+id/homepage"
+        android:title="@string/home"
+        android:contentDescription="Home"/>
+    </group>
+
+
+    <group
+        android:id="@+id/g2"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/pop_movie"
+            android:title="@string/pop_movie"
+            android:contentDescription="Populat Movies"/>
+
+        <item
+            android:id="@+id/top_movie"
+            android:title="@string/top_movie"
+            android:contentDescription="Top Movies"/>
+
+        <item
+            android:id="@+id/up_movie"
+            android:title="@string/up_movie"
+            android:contentDescription="Upcomming Movies"/>
+
+        <item
+            android:id="@+id/play_movie"
+            android:title="@string/play_movie"
+            android:contentDescription="now Playling Movies"/>
+
+
+        <item
+            android:id="@+id/fav_movie"
+            android:title="@string/fav_movie"
+            android:contentDescription="Favourite Movies"/>
+
+
+    </group>
+
+    <group
+        android:id="@+id/g3"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/about"
+            android:title="@string/about"
+            android:contentDescription="About"/>
+
+    </group>
+
+
+</menu>

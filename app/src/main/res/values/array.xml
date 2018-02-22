@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="order_option_names">
+        <item >@string/lp_pobular</item>
+        <item >@string/lp_top_rated</item>
+        <item>@string/lp_favourit</item>
+    </array>
+    <array name="order_option_values">
+        <item >@string/lp_pobular_value</item>
+        <item >@string/lp_top_rated_value</item>
+        <item>@string/lp_favourit_value</item>
+    </array>
+
+</resources>

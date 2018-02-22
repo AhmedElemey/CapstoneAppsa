@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ahmed">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/BaseTheme">
+        <activity
+            android:name=".activities.DetailsActivity"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/BaseTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ahmed.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.MainActivity"
+            android:theme="@style/BaseTheme"></activity>
+
+        <provider
+            android:name=".database.MoviesContentProvider"
+            android:authorities="com.example.ahmed"
+            android:exported="true"
+            android:readPermission="true"
+            android:writePermission="true" />
+
+        <activity
+            android:name=".Chat.LoginActivity"
+            android:label="@string/chat"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/BaseTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ahmed.activities.MainActivity" />
+        </activity>
+        <activity android:name=".activities.SPlashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".Widget.FavouritMovieWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/favourit_movie_widget_provider_info" />
+        </receiver>
+
+        <service
+            android:name=".Widget.WidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "964022662961",
+    "firebase_url": "https://the-movie-9d8e1.firebaseio.com",
+    "project_id": "the-movie-9d8e1",
+    "storage_bucket": "the-movie-9d8e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964022662961:android:1c34436fadedabef",
+        "android_client_info": {
+          "package_name": "com.example.ahmed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964022662961-943pi3vj9e08vohc4qfgrav6l0bquguj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3baaES5DHKWmbeonYIyl4tFtt3wgzgHI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

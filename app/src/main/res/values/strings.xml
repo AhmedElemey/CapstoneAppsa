@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">The Movie</string>
+    <string name="alert">there is no internet connection</string>
+
+    <string name="lp_title">Sort By</string>
+    <string name="lp_key">order</string>
+
+    <string name="lp_pobular">popular</string>
+    <string name="lp_top_rated">top rated</string>
+    <string name="lp_favourit">Favourite</string>
+
+    <string name="lp_pobular_value">popular</string>
+    <string name="lp_top_rated_value">top rated</string>
+    <string name="lp_favourit_value">Favourite</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="watch">Watch Trailer</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="pop_movie">Popular Movies</string>
+    <string name="top_movie">Top Movies</string>
+    <string name="fav_movie">Favourite Movies</string>
+    <string name="up_movie">UpComing Movies</string>
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
+    <string name="TAG">MainActivity</string>
+    <string name="ANONYMOUS">anonymous</string>
+    <string name="FRIENDLY_MSG_LENGTH_KEY">friendly_msg_length</string>
+
+    <string name="send_button_label">Send</string>
+    <string name="sign_out">Logout</string>
+    <string name="chat">Chat</string>
+    <string name="play_movie">Now Playing Movies</string>
+
+    <string name="BUNDLE_RECYCLER_LAYOUT">classname.recycler.layout</string>
+    <string name="MY_PREFS_NAME">MyPrefsFile</string>
+    <string name="KEY_PREFS">MY_KEY</string>
+    <string name="value">popular</string>
+    <string name="value2">top_rated</string>
+    <string name="value3">upcoming</string>
+    <string name="value5">now_playing</string>
+    <string name="value4">Favourite</string>
+    <string name="ourmovie">Ourmovie</string>
+
+
+
+    <string name="review">Reviews</string>
+    <string name="trailer">Trailers</string>
+    <string name="up">Up</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="trailer_name">trailer name</string>
+    <string name="about_fragment">About Fragment</string>
+    <string name="poster_details">Poster Details</string>
+    <string name="movies_details_holder">Movies Details Holder</string>
+    <string name="movie_details">Movie Details</string>
+    <string name="login">Login</string>
+    <string name="our_movie">Our Movie</string>
+    <string name="tralier">Tralier</string>
+    <string name="date_details">Date Details</string>
+    <string name="like">Like</string>
+    <string name="reviews">Reviews</string>
+    <string name="truee">true</string>
+    <string name="the_movie">The Movie</string>
+    <string name="review_by">Review by:</string>
+
+    <string name="movie_name">Movie Name</string>
+
+</resources>
